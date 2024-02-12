@@ -1,20 +1,20 @@
 {
-  "communicationServicesConnectionString": "endpoint=your_endpoint;accesskey=secret",
-  "microsoftBookingsUrl": "https://microsoftbookings.azurewebsites.net/?organization=financialservices&UICulture=en-US",
+  "communicationServicesConnectionString": "endpoint=https://virtual-booked-meetings.australia.communication.azure.com/;accesskey=T7TuQ3I7dSUgnkk+9AWJKEHs/NQhSxVuEZdnbpHL5hPkFZtU3uKFeXi3zFklflOJvBefdsdxwtyGrHc0EzZa3Q==",
+  "microsoftBookingsUrl": "https://outlook.office365.com/owa/calendar/HillCollege@greatsoutherngrammar.onmicrosoft.com/bookings/",
   "chatEnabled": true,
   "screenShareEnabled": true,
-  "companyName": "Lamna Healthcare",
-  "colorPalette": "#0078d4",
-  "waitingTitle": "Thank you for choosing Lamna Healthcare",
-  "waitingSubtitle": "Your clinician is joining the meeting",
-  "logoUrl": "",
+  "companyName": "Hill College Services",
+  "colorPalette": "#1F2437",
+  "waitingTitle": "Thanks for supporting Hill College!",
+  "waitingSubtitle": "You will be connected soon to our team",
+  "logoUrl": "https://my.hillcollege.org/images/crest.png",
   "postCall": {
     "survey": {
       "type": "onequestionpoll",
       "options": {
         "title": "Tell us how we did",
         "prompt": "How satisfied are you with this virtual appointment's audio and video quality?",
-        "pollType": "likeOrDislike",
+        "pollType": "rating",
         "saveButtonText": "Continue"
       }
     }
